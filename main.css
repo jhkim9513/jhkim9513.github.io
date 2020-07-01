@@ -1,0 +1,80 @@
+/* Global */
+:root {
+  /* Color */
+  --my--light-black: #212121;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+.header {
+  background-color: var(--my--light-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.8em;
+  color: white;
+}
+
+.header_userName {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_menu_item {
+  margin: 0 8px;
+  padding: 10px 16px;
+  border-radius: 0.5em;
+  color: black;
+}
+
+.nav_menu_item.active {
+  border: 0.1em solid var(--my--light-black);
+  font-weight: 600;
+}
+
+.nav_menu_item:hover {
+  background-color: #404040;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+/* section */
+#home_section {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0 0 0;
+}
+
+.sub_title {
+  color: var(--my--light-black);
+  font-weight: 600;
+  font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.home_learning_img {
+  width: 15em;
+  height: 7em;
+}

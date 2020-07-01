@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonghwan's Portfolio</title>
+    <!-- 홈페이지 탭부분 제목 옆에 이미지 -->
+    <link rel="icon" type="image/png" href="images/kkam coffee.png" />
+    <script
+      src="https://kit.fontawesome.com/1477be2850.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <!-- defer : html파일이 파싱되는동안 js를 다운받아서 html이 다 완료가된 뒤에 js를 실행-->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="profile_logo">
+        profile
+      </div>
+      <div class="header_userName">
+        <i class="fas fa-child"></i>
+        JongHwan
+      </div>
+    </header>
+
+    <!-- nav -->
+    <nav id="nav">
+      <div class="nav_menu">
+        <ul class="nav_menu">
+          <a href="index.html"><li class="nav_menu_item active">Home</li></a>
+          <a href="Self-introduction.html"
+            ><li class="nav_menu_item">Self-introduction</li></a
+          >
+          <a href="Career.html"><li class="nav_menu_item">Career</li></a>
+          <a href="Contact.html"><li class="nav_menu_item">Contact</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- section -->
+    <section id="home_section">
+      <div id="home_photo_div">
+        <img src="images/profile.jpg" id="home_photo_img" />
+      </div>
+
+      <div id="home_learnList_div">
+        <ul>
+          <p class="sub_title">Learning...</p>
+          <li><img src="images/HTML.png" class="home_learning_img" /></li>
+          <li><img src="images/CSS.png" class="home_learning_img" /></li>
+          <li>
+            <img src="images/JS Concept.png" class="home_learning_img" />
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
